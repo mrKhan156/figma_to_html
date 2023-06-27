@@ -1,0 +1,23 @@
+@media (max-width:992px) {
+    .navbar{
+        display: none;
+    }
+    .contact_btn{
+        display: none;
+    }
+    .bar_btn{
+        display: block;
+        color: blanchedalmond;
+        font-size: 30px;
+    }
+    .portfolio ul{
+display: none;
+    }
+    
+    .inner_portfolio_dropdown{
+display: block; 
+margin-bottom: 30px;    
+    }
+  
+  
+}
