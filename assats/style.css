@@ -1594,7 +1594,9 @@ color:rgba(255, 255, 255, 1) ;
 
 /* footer style starts */
 
-
+.inner_footer{
+    background-color:#FDF0E9;;
+}
 
 
 .footer_up{
@@ -1656,5 +1658,99 @@ text-transform: uppercase;
 }
 .up_img img{
 
+}
+.footer_down{
+    display: flex;
+    align-items: first baseline;
+    justify-content: space-between;
+    padding: 30px 80px;
+}
+.footer_logo h3{
+    font-family: Epilogue;
+font-size: 24px;
+font-style: normal;
+font-weight: 700;
+line-height: 32px;
+color:rgba(57, 20, 0, 1) ;
+}
+.footer_menu ul li:first-child{
+    font-family: Epilogue;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 3px;
+text-transform: uppercase;
+color: rgba(239, 109, 88, 1);
+margin-bottom: 10px;
+
+}
+
+.footer_menu ul li a{
+    font-family: Epilogue;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+color: rgba(57, 20, 0, 1);
+
+}
+.footer_service ul li:first-child{
+    font-family: Epilogue;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+letter-spacing: 3px;
+text-transform: uppercase;
+color: rgba(239, 109, 88, 1);
+margin-bottom: 10px;
+
+}
+.footer_service ul li a{
+    font-family: Epilogue;
+font-size: 16px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+color: rgba(57, 20, 0, 1);
+
+}
+.social img{
+  width: 100%;
+  transform: translateY(21px);
+  
+}
+.footer_separator{
+    max-width: 1000px;
+    background-color: rgba(243, 209, 191, 1);
+margin-bottom: 50px;
+}
+.copy{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+padding: 20px 80px;
+}
+.copy_left p{
+    font-family: Epilogue;
+    font-size: 13px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 32px; 
+    color: rgba(57, 20, 0, 0.64); 
+}
+.copy_right{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.copy_right h5{
+    font-family: Epilogue;
+font-size: 13px;
+font-style: normal;
+font-weight: 400;
+line-height: 32px;
+color: rgba(57, 20, 0, 1);
 }
 /* footer style ends */
